@@ -179,3 +179,53 @@ body {
 .search-button:hover {
   background: var(--color-purple-700);
 }
+
+/* Features Section */
+.features {
+  background: #f9fafb;
+  padding: 3rem 1rem;
+}
+
+.features-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  color: var(--color-purple-600);
+}
+
+.feature-title {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.feature-description {
+  color: var(--color-gray-600);
+  margin-bottom: 1rem;
+}
+
+.feature-link {
+  color: var(--color-purple-600);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.feature-link:hover {
+  color: var(--color-purple-700);
+}
