@@ -229,3 +229,55 @@ body {
 .feature-link:hover {
   color: var(--color-purple-700);
 }
+
+/*footer*/
+.footer {
+  background: var(--color-gray-900);
+  padding: 3rem 1rem;
+  color: white;
+}
+
+.foooter-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.footer-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+list-style: none;
+}
+
+.footer-links {
+color: var(--color--gray-300);
+text-decoration: none;
+display: black:
+margin-bottom: 0.5rem;
+}
+
+.footer-links:hover {
+color: white;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+color: var(--color-gray-300);
+}
+
+.social-link:hover {
+color: white;
+}
